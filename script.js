@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // variable para cambiar el modo a vacaciones para habilitar todos los dias
-  const modoVacaciones = false;
+  const modoVacaciones = true; // Cambiar a true para habilitar todos los días, false para solo fines de semana
 
   const packageInputs = document.querySelectorAll('input[name="package"]');
   const serviceCheckboxes = document.querySelectorAll('input[name="service"]');
@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       // Construir el mensaje estructurado para WhatsApp
-      const telefonoNegocio = "+524571059374";
+      const telefonoNegocio = "+524571062515"; // Número de negocio
 
       let mensaje = `🛻 *NUEVA CITA - CAR WASH SILVA* 🛻\n\n`;
       mensaje += `👤 *Cliente:* ${nombre}\n`;
